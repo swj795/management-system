@@ -1,0 +1,12 @@
+@import '../../assets/styles/var';
+
+.home{
+    @include center;
+    width: 200px;
+    height: 200px;
+    border: 1px solid red;
+    h1{
+        color: $fontColor;
+        size: $fontSize;
+    }
+}

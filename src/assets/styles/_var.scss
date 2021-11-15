@@ -1,0 +1,14 @@
+/* 样式变量定义 */
+
+$fontColor:#333;
+$fontSize:20px;
+
+
+/* 样式代码片段 */
+
+// 垂直居中
+@mixin center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
